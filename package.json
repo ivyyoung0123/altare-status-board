@@ -1,0 +1,1 @@
+{"description":"Status board for Ivy's free services, hosted on Altare","engines":{"node":">=20"},"main":"server.js","name":"altare-status-board","scripts":{"start":"node server.js"},"version":"1.0.0"}
