@@ -243,7 +243,7 @@ const server = http.createServer((req, res) => {
   res.end('not found');
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log('status board listening on port ' + PORT);
   setTimeout(runChecks, 1000);
   setInterval(runChecks, CHECK_INTERVAL_MS);
